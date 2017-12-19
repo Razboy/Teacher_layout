@@ -1,0 +1,80 @@
+/*Header*/
+.header-container {
+	margin-top: 40px;
+	font-family: 'Playfair Display', serif;
+}
+
+.header-container h1 {
+	font-size: 3em;
+}
+
+.header-container p {
+	font-size: 1.5em;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.photo {
+	display: block;
+    max-height: 400px;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(12,15,16,0.2);
+	box-shadow: 1px 1px 1px 1px rgba(12,15,16,0.2);
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+/*First row (videos)*/
+.videos {
+	margin-top: 60px;
+}
+
+.videos h4 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.2em;
+}
+
+.video-1, .video-2 {
+	max-width: 100%;
+	padding: 0 20px;
+}
+
+.video-container {
+	background-color: #f0f0f0;
+	overflow: hidden;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+h4 {
+	text-align: center;
+}
+
+/*Second row (img)*/
+.img-container {
+	overflow: hidden;
+	margin: 60px 0 40px 0;
+}
+
+.img-container {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.2em;
+}
+
+.img-container img {
+	max-width: 100%;
+	padding: 5px;
+}
+
+.pen-img, .paper-img, .books-img {
+	background-color: #f0f0f0;
+	overflow: hidden;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.pen-img:hover, .paper-img:hover, .books-img:hover {
+	background-color: #DCE2E8;
+}
+

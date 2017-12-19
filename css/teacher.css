@@ -1,0 +1,9 @@
+.doc-list {
+	width: 800px;
+	margin: 20px auto auto auto;
+}
+
+.doc-list ul {
+	text-align: center;
+	font-size: 1.3em;
+}
